@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+.first-section {
+    background-image: url(backgroundimg.avif);
+    background-size:auto; /* Adjust the background size */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 100vh;
+    width: 33.33%;
+    float: left;
+    overflow: hidden; /* Hide any overflowing content */
+ }
+
+img{
+  max-height: 100vh;
+}
+.second-section {
+    width: 66.66%; /* Set the width to 2/3 of the viewport width */
+    float: right; /* Float the container to the right */
+  color:white;
+}
